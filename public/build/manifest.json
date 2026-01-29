@@ -1,0 +1,18 @@
+{
+  "resources/images/background.jpg": {
+    "file": "assets/background-C8RsM-o0.jpg",
+    "src": "resources/images/background.jpg"
+  },
+  "resources/js/app.jsx": {
+    "file": "assets/app-DExa0R5B.js",
+    "name": "app",
+    "src": "resources/js/app.jsx",
+    "isEntry": true,
+    "css": [
+      "assets/app-DJSy8M6b.css"
+    ],
+    "assets": [
+      "assets/background-C8RsM-o0.jpg"
+    ]
+  }
+}
