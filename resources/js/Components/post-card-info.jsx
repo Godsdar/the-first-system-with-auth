@@ -13,6 +13,7 @@ export const CardPostImage = styled.div`
 `;
 
 export const CardPostText = styled.div`
+  margin: 12px 0 8px 0;
   line-height: 1.4em;
 `;
 
@@ -20,12 +21,19 @@ export const CardTitle = styled.h2`
   color: inherit;
 `;
 
+export const CardPostLink = styled.a`
+  text-decoration: none;
+  color: #eee;
+  margin-top: 30px;
+  line-height: 1.4em;
+`;
+
 export function PostCardInfo ({ titleText, subtitleText }) {
   return (
     <StyledPostCardInfo>
       <CardTitle>{titleText}</CardTitle>
       <CardPostText>{subtitleText}</CardPostText>
-      <a href="contacts">Learn More</a>
+      <CardPostLink href="#">Learn more</CardPostLink>
     </StyledPostCardInfo>
   );
 }

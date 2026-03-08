@@ -73,4 +73,7 @@ export const GlobalStyles = createGlobalStyle`
     text-decoration: none;
     color: white;
   }
+  .container {
+    width: 0;
+  }
 `;

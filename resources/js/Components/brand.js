@@ -1,9 +1,10 @@
 import styled from "styled-components";
 
 export const Brand = styled.div`
-  width: 56px;
-  height: 56px;
+  display: flex;
   border-radius: 50%;
+  align-self: center;
+  text-transform: uppercase;
   & > img {
     width: 50px;
     height: 50px;

@@ -3,11 +3,12 @@ import SidebarList from './sidebar-list';
 import { colorsPallete } from './global-styles';
 
 export const StyledSidebar = styled.div`
+  width: 200px;
+  height: auto;
   padding: 20px;
   display: flex;
-  top: 40%;
   left: 12px;
-  position: fixed;
+  /* position: fixed; */
   background-color: ${colorsPallete.purple};
   border-radius: 8px;
 `;

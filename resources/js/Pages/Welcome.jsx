@@ -12,8 +12,7 @@ function Welcome () {
     <>
       <Normalized></Normalized>
       <GlobalStyles></GlobalStyles>
-      <Container className='container'>
-        <Sidebar></Sidebar>
+      <Container>
         <Row>
           <Col>
             <Header></Header>
@@ -27,7 +26,7 @@ function Welcome () {
             />
           </Col>
           <Col>
-           <PostCard
+            <PostCard
               titleText="Traveler"
               subtitleText="DAR META META"
             />
@@ -47,10 +46,30 @@ function Welcome () {
             />
           </Col>
           <Col>
-           <PostCard
+            <PostCard
               titleText="Traveler"
               subtitleText="DAR META META"
-            /> 
+            />
+          </Col>
+          <Col>
+            <PostCard
+              titleText="DAR"
+              subtitleText="DAR META"
+            />
+          </Col>
+        </Row>
+        <Row className='row'>
+          <Col>
+            <PostCard
+              titleText="DAR"
+              subtitleText="DAR META"
+            />
+          </Col>
+          <Col>
+            <PostCard
+              titleText="Traveler"
+              subtitleText="DAR META META"
+            />
           </Col>
           <Col>
             <PostCard

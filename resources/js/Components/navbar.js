@@ -8,6 +8,7 @@ export const Menu = styled.div`
   display: flex;
   font-family: Arial, Helvetica, sans-serif;
   justify-self: flex-end;
+  align-self: center;
 
   &:last-child {
     margin-right: 0;
