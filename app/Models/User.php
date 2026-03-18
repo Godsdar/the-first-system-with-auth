@@ -24,7 +24,7 @@ class User extends Authenticatable
     ];
 
     /**
-     * The attributes that should be hidden for serialization.
+     *. The attributes that should be hidden for serialization.
      *
      * @var list<string>
      */
@@ -34,7 +34,7 @@ class User extends Authenticatable
     ];
 
     /**
-     * Get the attributes that should be cast.
+        * Get the attributes that should be cast.
      *
      * @return array<string, string>
      */

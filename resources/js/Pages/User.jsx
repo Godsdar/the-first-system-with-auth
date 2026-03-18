@@ -74,7 +74,7 @@ export function Stats () {
     )
 }
 
-export default function Dashboard() {
+export default function User() {
     return (
         <>
             <GlobalStyles></GlobalStyles>
@@ -83,9 +83,9 @@ export default function Dashboard() {
                 <Row style={{paddingTop: 8}}>
                     <Col xxl={4}>
                         <StyledWrapper>
-                            <img src='https://placehold.co/60x60/royalblue/fef' alt="" />
-                            <span>{user.name}</span>
-                            <p>{user.about}</p>
+                            <img src='https://placehold.co/60x60/orange/fef' alt="" />
+                            <span>DAR</span>
+                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Id aspernatur quos eius magnam suscipit iure a, animi sed? Iste veritatis aliquam id aut nulla dignissimos, at consequatur veniam atque ipsam!</p>
                             <Stats></Stats>
                         </StyledWrapper>
                     </Col>

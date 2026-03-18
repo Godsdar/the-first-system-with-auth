@@ -8,6 +8,7 @@ const StyledPostCard = styled.div`
   border-radius: 10px;
 `;
 
+
 function PostCard ({ titleText, subtitleText }) {
   return (
       <StyledPostCard>

@@ -2,7 +2,7 @@ import { createGlobalStyle } from "styled-components";
 
 export const colorsPallete = {
   purple: "#343080",
-  lightPurple: "#747bff",
+  lightPurple: "#373b85",
   font: "rgba(255 255 255 / 0.7)",
 };
 
@@ -72,8 +72,5 @@ export const GlobalStyles = createGlobalStyle`
   [href] {
     text-decoration: none;
     color: white;
-  }
-  .container {
-    width: 0;
   }
 `;

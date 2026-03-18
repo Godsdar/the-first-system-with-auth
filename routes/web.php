@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\Auth\AuthenticatedSessionController;
 use App\Http\Controllers\ProfileController;
 use Illuminate\Foundation\Application;
 use Illuminate\Support\Facades\Route;
@@ -19,9 +20,13 @@ Route::get('/post', function () {
     return Inertia::render('Post');
 });
 
+Route::get('/user', function () {
+    return Inertia::render('User');
+})->name('user');
+
 Route::get('/dashboard', function () {
-    $usersData = DB::select('select * from users where id = 1');
-    return Inertia::render('Dashboard', ['users' => $usersData]);
+    // $usersData = DB::select('select * from users where id = 1');
+    return Inertia::render('Dashboard');
 })->middleware(['auth', 'verified'])->name('dashboard');
 
 Route::middleware('auth')->group(function () {
@@ -29,6 +34,5 @@ Route::middleware('auth')->group(function () {
     Route::patch('/profile', [ProfileController::class, 'update'])->name('profile.update');
     Route::delete('/profile', [ProfileController::class, 'destroy'])->name('profile.destroy');
 });
-
 
 require __DIR__.'/auth.php';

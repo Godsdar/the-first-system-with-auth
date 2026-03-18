@@ -4,7 +4,7 @@ import Bgim from "../images/background.jpg";
 
 export const colorsPallete = {
   purple: "#343080",
-  lightPurple: "#747bff",
+  lightPurple: "#42468b",
   font: "rgba(255 255 255 / 0.7)",
 };
 

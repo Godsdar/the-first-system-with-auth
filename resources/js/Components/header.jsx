@@ -16,7 +16,6 @@ export const StyledHeader = styled.div`
   justify-content: space-between;
   align-items: flex-end;
   padding: 12px 0;
-  /* margin: autoq; */
 `;
 
 export const StyledLinks = styled.div`
@@ -39,6 +38,7 @@ function Header () {
         </Menu>
         <StyledLinks>
           <Link href="/login" as="button">Login</Link>
+          <Link href="/logout" as="button">Logout</Link>
           <Link href="/register" as="button">Sign in</Link>
         </StyledLinks>
       </Navbar>
